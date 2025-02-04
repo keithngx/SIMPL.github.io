@@ -1,0 +1,145 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5fafd;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navbar container */
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Space between logo and links */
+    align-items: center; /* Align items vertically */
+    background-color: #ffffff; /* Navbar background color */
+    padding: 1  px 10px;
+    color: white;
+}
+
+.navbar-text {
+    flex-grow: 1; /* Allow the text to grow and take available space */
+    text-align: center; /* Center the text horizontally */
+    color: #333; /* Text color */
+    font-size: 40px; /* Text size */
+    padding-left: 250px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Logo styling */
+.logo img {
+    height: 100px; /* Adjust logo size */
+    width: auto;
+}
+
+/* Navigation links container */
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation links styling */
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ddd; /* Hover effect */
+}
+
+
+/* Header Section */
+#header {
+    text-align: center;
+    padding: 4em 1em;
+    background-color: #0078d4;
+    color: white;
+}
+
+.header-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 1em;
+}
+
+/* Benefits Section */
+#benefits {
+    padding: 2em;
+    text-align: center;
+}
+
+#benefits ul {
+    list-style: none;
+}
+
+/* Features Section */
+#features {
+    padding: 2em;
+    text-align: center;
+}
+
+#features ul {
+    list-style: none; 
+}
+
+/* Centered Button */
+.center-button {
+    display: block;
+    margin: 0 auto;
+    padding: 5px 10px;
+    background-color: #0078d4;
+    color: white;
+    border: none;  
+    border-radius: 15px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+    width: 100px;
+}
+
+.center-button:hover {
+    background-color: #005bb5;
+}
+
+/* Contact */
+#contact {
+    padding: 2em;
+    text-align: center;
+}
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #0078d4;
+    color: white;
+    margin-top: 2em;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
